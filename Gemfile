@@ -19,4 +19,5 @@ end
 group :development do
   gem 'rubocop', '~> 0.58.1'
   gem 'spring'
+  gem 'listen'
 end
