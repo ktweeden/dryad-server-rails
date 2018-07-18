@@ -1,5 +1,2 @@
-class Story < ActiveRecord::Base 
-  def initialize(title)
-    @title = title
-  end
+class Story < ApplicationRecord
 end

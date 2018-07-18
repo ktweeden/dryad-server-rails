@@ -8,8 +8,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'rails', '~> 5.1.5'
 gem 'puma', '~> 3.7'
+gem 'rails', '~> 5.1.5'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
@@ -17,7 +17,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'listen'
   gem 'rubocop', '~> 0.58.1'
   gem 'spring'
-  gem 'listen'
 end
